@@ -1,10 +1,14 @@
 package de.telran.bank.entity;
 
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.util.UUID;
 
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
 @Data
 public class Client {
     private UUID id;
@@ -16,5 +20,5 @@ public class Client {
     private String address;
     private String phone;
     private LocalDate createIt;
-    private LocalDate updateIt;
+
 }
