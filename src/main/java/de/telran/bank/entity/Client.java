@@ -5,13 +5,11 @@ import lombok.*;
 import java.time.LocalDate;
 import java.util.UUID;
 
-@Getter
-@Setter
 @Builder
 @AllArgsConstructor
 @Data
 public class Client {
-    private UUID id;
+    private final UUID id = UUID.randomUUID();
     private String firstName;
     private String lastName;
     private int status;

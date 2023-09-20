@@ -3,18 +3,19 @@ package de.telran.bank.entity;
 import lombok.Builder;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
 public class Manager {
-    private UUID id = UUID.randomUUID();
+    private final UUID id = UUID.randomUUID();
     private String firstName;
     private String lastName;
     private int status;
     private LocalDate createIt;
     private LocalDate updateIt;
-    private List<Client> clients;
+    private List<Client> clients = new ArrayList<>();
 
     public Manager() {
     }
