@@ -3,6 +3,8 @@ package de.telran;
 import de.telran.bank.entity.Client;
 import de.telran.bank.entity.Manager;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.UUID;
 
 public class Main {
@@ -17,6 +19,8 @@ public class Main {
         System.out.println(manager2);
 
         System.out.println(manager1.equals(manager2));
+
+        Set<Integer> sets = new HashSet<>();
 
 ;
 

@@ -18,5 +18,6 @@ public class Client {
     private String address;
     private String phone;
     private LocalDate createIt;
+    private Manager manager;
 
 }
