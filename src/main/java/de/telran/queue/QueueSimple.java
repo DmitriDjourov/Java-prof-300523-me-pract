@@ -11,6 +11,7 @@ public class QueueSimple {
         System.out.println(queue.add(20));
         queue.addLast(30);
         queue.addLast(15);
+        queue.addLast(25);
         System.out.println(queue);
 
 
