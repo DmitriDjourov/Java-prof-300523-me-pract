@@ -1,5 +1,7 @@
 package de.telran.lambda;
 
+import lombok.val;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.SortedMap;

@@ -50,5 +50,7 @@ public class SortCollectionSimple {
         treeMap.put(new Person("Вася", 15), 2);
         System.out.println(treeMap);
 
+        Set<Person> sets = new TreeSet<>();
+
     }
 }
