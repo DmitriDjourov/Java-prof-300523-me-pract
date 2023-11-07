@@ -1,9 +1,12 @@
 package de.telran.serializable.standart.manual;
 
+import lombok.val;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.util.Optional;
 
 public class Address implements Serializable {
     // сами задаём значение, чтобы JVM не генерировала его
@@ -14,6 +17,7 @@ public class Address implements Serializable {
     private String city;
     private String street;
     private int houseNumber;
+
 
     public Address(int countryCode, String city, String street,
                    int houseNumber) {

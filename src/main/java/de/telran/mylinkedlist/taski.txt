@@ -1,0 +1,4 @@
+Реализовать методы:
+    public boolean removeLast() {
+    public int get(int index) {
+    public boolean contains(int data)
